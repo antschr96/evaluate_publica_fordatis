@@ -25,3 +25,17 @@ Beide Ergebnisdateien enthalten jeweils ein readMe-Datenblatt mit Erläuterungen
 
 ## Fordatis
 <a href="https://github.com/antschr96/evaluate_publica_fordatis/blob/main/data/fordatis_bitstream_metadata_20230517.xlsx">.data/fordatis_bitstream_metadata_20230517.xlsx</a>
+
+# Formatidentifikation mit DROID
+Ausgewählte Dateien, deren MIME Type (MIME Type: application/octet-stream) von der Software DSpace beim Upload nicht eindeutig erkannt werden konnte bzw. als Binärinformation interpretiert wurde, wurden näher untersucht. Auffällig ist die Zahl von 127 Dateien, deren MIME Type (MIME Type: application/octet-stream) von der Software DSpace beim Upload nicht eindeutig erkannt werden konnte bzw. als Binärinformation interpretiert wurde. Bei insgesamt 12 digitalen Objekte erfolgte jedoch eine Formatidentifikation beim Upload. Die übrigen 115 digitalen wurden anhand der Dateierweiterung in der Excel-Datei manuell klassifiziert.
+Um Erfahrungen mit der Formatidentifikation zu sammeln wurden ausgewählte Dateien mit DROID untersucht:
+* 5 Dateien, deren Datenformat nicht erkannt wurde (Dateinamen: xxxx.feather, uniax_simulator_for_microstructure_evolution_40tasks, ebsd.ang, Mesh.inp, Coeff Thermal Expansion_C12A7.dat)
+* 2 von 11 npy-Dateien (Dateinamen: test_set_properties.npy, training_set_properties.npy)
+* 2 matlab-Dateien (Dateinamen: accln_5Wcr_1ep_10tc.mat), um mehr Informationen zur verwendeten Version zu erhalten.
+* 1 SPSS-Datei (Dateiname: Data set_Air travel_Fraunhofer ISE.sav), 1 Pythonprogramm (view_data.py), um Informationen zur Identifikation durch DROID zu erhalten.
+* 3 Dateiarchive (Dateinamen: Figure 5.zip, Raw-data_tribometer.7z, macroscopic_testing.zip), um mehr Informationen zur Identifikation der enthaltenen Dateien zu ermitteln.
+
+Das Analyse-Ergebnis von DROID liegt als <a href="https://github.com/antschr96/evaluate_publica_fordatis/blob/main/data/droid_analyse_ergebnis.txt"> Report</a> vor.
+
+Als problematisch für eine Archivierung stellten sich ein ausführbares Programm, das von DROID als solches erkannt wurde. Elf binäre Numpy-Dateien und eine weitere Binärdatei konnten auch von DROID nicht identifiziert werden. Die Informationen wurden in der Excel-Datei festgehalten:
+<a href="https://github.com/antschr96/evaluate_publica_fordatis/blob/main/data/publica_list_of_publications_with_attached_files_20230519.xlsx">/.data/publica_list_of_publications_with_attached_files_20230519.xlsx</a></br>
