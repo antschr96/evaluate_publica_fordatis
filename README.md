@@ -18,7 +18,10 @@ Das Ergebnis wird in die Datei geschrieben: <a href="https://github.com/antschr9
 Die Datei ./data/fordatis_item_metadata.csv wurde nicht weiter ausgewertet, lediglich als Hilfsmittel zur Kontrolle von Datensätzen im Frontend eingesetzt.</br> 
 
 # Analyse Ergebnis: Auswertung der Daten in Excel
+Beide Ergebnisdateien enthalten jeweils ein readMe-Datenblatt mit Erläuterungen der Tabellenblätter und Spalten.
+
 ## Fraunhofer-Publica
 <a href="https://github.com/antschr96/evaluate_publica_fordatis/blob/main/data/publica_list_of_publications_with_attached_files_20230519.xlsx">/.data/publica_list_of_publications_with_attached_files_20230519.xlsx</a></br>
+
 ## Fordatis
 <a href="https://github.com/antschr96/evaluate_publica_fordatis/blob/main/data/fordatis_bitstream_metadata_20230517.xlsx">.data/fordatis_bitstream_metadata_20230517.xlsx</a>
